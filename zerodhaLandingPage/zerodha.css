@@ -1,0 +1,100 @@
+
+.container {
+        position: relative;
+        width: 1100px;
+        max-width: 100%;
+        margin: 0 auto;
+        box-sizing: border-box;
+}
+
+.nav-bar {
+    display: flex;               /* Flexbox for horizontal layout */
+    justify-content: space-between; /* Align all items to the left side */
+    align-items: center;         /* Vertically center the items */
+    padding: 41.667px 41.667px;   
+    padding: fixed;      
+    z-index: 1000; 
+    
+  }
+  
+  .left {
+    margin-right: 30px;          /* Add some space between the logo and the nav items */
+  }
+  
+  .left img {
+    height: 20px;                /* Set height for the logo */
+  }
+  
+  .right {
+    display: flex;               /* Flexbox for the right div */
+    gap: 20px;                   /* Add spacing between the navigation items */
+  }
+  
+  .right div {
+    cursor: pointer;             /* Optional: Make the nav items look clickable */
+  }
+ 
+  .centerLanding {
+    display: flex;                 /* Use flexbox */
+    flex-direction: column;        /* Stack the items vertically */
+    align-items: center;           /* Center items horizontally */
+    justify-content: center;       /* Center items vertically */
+    height: 100vh;                 /* Take up full viewport height */
+    text-align: center;            /* Center text inside the container */
+    padding: 0px 20px;     
+    margin : 0px,10px;
+  }
+  
+  .landingImage {
+    width: 500px;                  
+    margin-bottom: 10px;           
+  }
+  
+  .centerLanding h1 {
+    font-size: 2.75rem;
+    line-height: 1.25;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .centerLanding h5 {
+    font-size: 1.25rem;
+    font-weight: 400;         /* Space between subheading and button */
+  }
+  
+  .centerLanding a {
+    display: inline-block;         /* Make the link behave like a button */
+    padding: 10px 20px;            /* Button padding */
+    background-color: #007BFF;     /* Button background color */
+    color: white;                  /* Button text color */
+    text-decoration: none;         /* Remove underline from link */
+    border-radius: 5px;            /* Rounded corners for the button */
+    font-size: 16px;               /* Adjust font size for the button */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  .centerLanding a:hover {
+    background-color: #0056b3;     /* Darker blue on hover */
+  }
+  
+.eco-container{
+    display: flex;
+    justify-content: space-around;
+}
+.eco-left{
+    flex-basis: 39.3333333333%;
+}
+.eco-right{
+    flex: 1;
+}
+.ecoImage{
+    width: 612px;                  
+    margin-bottom: 10px;  
+}
+
+.main section.ecoSystem h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #424242;
+}
